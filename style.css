@@ -121,12 +121,13 @@ li {
     justify-content: center;
     align-items: center;
     text-align: left;
+
 }
 
 .main-center-text {
     font-size: 1.1rem;
     height: 100%;
-    overflow: auto;
+    overflow: scroll;
 }
 .main-center-text p{
     padding: 0 0.5rem;
@@ -254,7 +255,6 @@ li {
     height: 100%;
     text-align: center;
     color: #EEE;
-    overflow: auto;
     /*background-image: linear-gradient(to left bottom, #051937, #20263e, #343546, #45444d, #555555);*/
     background: #003366;
 }
