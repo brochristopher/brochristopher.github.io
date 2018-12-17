@@ -121,16 +121,12 @@ li {
     justify-content: center;
     align-items: center;
     text-align: left;
-    overflow: auto;
 }
 
 .main-center-text {
     font-size: 1.1rem;
     height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    flex-direction: column;
+    overflow: auto;
 }
 .main-center-text p{
     padding: 0 0.5rem;
