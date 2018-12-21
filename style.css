@@ -82,12 +82,6 @@ li {
     justify-content: center;
 }
 
-#nav-container li {
-    text-decoration: none;
-    font-size: 1.3rem;
-    color: #333;
-}
-
 #nav-container li:hover {
     background: #333;
     color: #eee;
@@ -124,22 +118,18 @@ li {
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     text-align: left;
-
 }
 
 .main-center-text {
-    font-size: 1.1rem;
-    height: 100%;
-    overflow: scroll;
+    overflow: auto;
 }
 .main-center-text p{
-    padding: 0 0.5rem;
+    padding: 0 0.5rem;    
+    font-size: 1.25rem;
 }
-
-
 
 #footer-links a {
     color: #EEE;
@@ -233,6 +223,9 @@ li {
 
 #nav-container li {
     padding: 1rem 2rem;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #333;
 }
 
 #nav-container li i  {
