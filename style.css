@@ -91,6 +91,7 @@ li {
 #nav-container li:hover {
     background: #333;
     color: #eee;
+    cursor: pointer;
 }
 
 #sidebar-footer-links li a i:hover{
