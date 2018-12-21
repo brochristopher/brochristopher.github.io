@@ -234,10 +234,6 @@ li {
     padding: 1rem 2rem;
 }
 
-#nav-container li:hover {
-    background: #DDD;
-}
-
 #nav-container li i  {
     padding-right: 0.5rem;
     margin: auto;
