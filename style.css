@@ -89,7 +89,12 @@ li {
 }
 
 #nav-container li:hover {
-    cursor: pointer;
+    background: #333;
+    color: #eee;
+}
+
+#sidebar-footer-links li a i:hover{
+    transform: scale(1.15);
 }
 
 .nav-link:hover {
