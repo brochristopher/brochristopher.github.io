@@ -50,6 +50,11 @@ li {
     flex-direction: column;
 }
 
+#projects a {
+    text-decoration: none;
+    color: #89cff0;
+}
+
 #contact {
     display: flex;
     flex-direction: column;
